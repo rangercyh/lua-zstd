@@ -1,7 +1,7 @@
 # lua-zstd
 lua binding for https://github.com/facebook/zstd
 
-# useage
+# use
 ```lua
 local ztsd = require "zstd"
 
