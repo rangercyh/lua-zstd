@@ -5,5 +5,5 @@ local str = "asdf"
 local s = ztsd.compress(str)
 print(s, string.len(s))
 
-print(ztsd.decompress(s, string.len(str)))
+assert(ztsd.decompress(s, string.len(str)))
 
